@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const hbs = require('hbs');
 mongoose.connect('mongodb://localhost:27017/contact-page', {useNewUrlParser: true, useUnifiedTopology: true});
 const app = express();
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 
 //mongos schema
